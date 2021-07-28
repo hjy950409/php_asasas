@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>포토폴리오</title>
+    <title>자기소개</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css">
     <link rel="stylesheet" href="common.css">
     <script src="common.js"></script>
@@ -19,16 +19,16 @@
       <div class="flex-grow"></div>
       
       <ul class="flex -mr-2">
-        <li><a href="/" class="h-full flex items-center px-2 text-red-500 font-bold" href="#">홈</a></li>
+        <li><a href="/" class="h-full flex items-center px-2 " href="#">홈</a></li>
         <li><a href="/pf.php" class="h-full flex items-center px-2" href="#">포트폴리오</a></li>
-        <li><a href="/aboutMe.php" class="h-full flex items-center px-2" href="#">자기소개</a></li>
+        <li><a href="/aboutMe.php" class="h-full flex items-center px-2 text-red-500 font-bold" href="#">자기소개</a></li>
         <li><a href="https://www.naver.com/" target="_blank" class="h-full flex items-center px-2" href="#">유튜브</a></li>
       </ul>
     </div>
   </header>
   <main class="flex-grow flex items-center justify-center">
     <h1 class="text-4xl">
-      홈
+      자기소개
     </h1>
   </main>
   <footer class="bottom-bar h-20 flex-shrink-0 flex justify-center items-center bg-black text-white">
